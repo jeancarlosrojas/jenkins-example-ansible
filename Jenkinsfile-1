@@ -1,5 +1,7 @@
 pipeline {
-  agent {label 'linux'}
+  agent {
+    label 'slave-lnx-01'
+  }
 
   stages {
     stage('Hello') {
