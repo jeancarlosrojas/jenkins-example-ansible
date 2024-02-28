@@ -2,7 +2,6 @@ pipeline {
   agent { 
     label 'slave-lnx-01' 
   }
-  environment {}
   stages {
     stage('Hello') {
       steps {
